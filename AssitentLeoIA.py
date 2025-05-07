@@ -4,7 +4,7 @@ import chromadb
 from typing import List
 
 # === CONFIGURAÇÕES ===
-OPENAI_API_KEY = "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"  # Substitua por sua chave da OpenAI
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ARQUIVO_TRANSCRICAO = "transcricoes.txt"
 N_RESULTADOS = 4
 

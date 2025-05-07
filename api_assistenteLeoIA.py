@@ -21,6 +21,10 @@ def perguntar(p: Pergunta):
     resposta = responder(p.texto)
     return resposta
 
+@app.get("/teste")
+def teste():
+    return 'ok'
+
 ###iniciar sevidor##
 # uvicorn api_assistenteLeoIA:app --host 0.0.0.0 --port 49800
 

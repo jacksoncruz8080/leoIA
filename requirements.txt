@@ -1,2 +1,5 @@
-pip install fastapi uvicorn
-pip install openai chromadb tiktoken
+fastapi
+uvicorn[standard]
+openai
+chromadb
+tiktoken
